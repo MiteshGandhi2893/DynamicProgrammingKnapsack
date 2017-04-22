@@ -1,0 +1,14 @@
+JFLAGS = -g
+JC = javac
+
+MAIN = AssignmentP3
+.SUFFIXES: .java .class
+.java.class:
+	$(JC) $*.java
+CLASSES = \
+	AssignmentP3.java \
+
+classes: $(CLASSES:.java=.class)
+
+default : class
+

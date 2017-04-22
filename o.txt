@@ -1,0 +1,5 @@
+Problem Size :3 Max Profit :60 runtime :12
+ Items in Knapsack :
+ Item 1(W=1,P=20)
+ Item 3(W=6,P=40)
+
